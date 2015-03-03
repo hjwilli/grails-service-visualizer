@@ -78,7 +78,7 @@ func main() {
 
 			addEntity(graph, dep.Name)
 
-			graph.AddEdge(currentArtifactName, "", dep.Name, "", true, nil)
+			graph.AddPortEdge(currentArtifactName, "", dep.Name, "", true, nil)
 		}
 
 	}
